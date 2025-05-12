@@ -1,0 +1,43 @@
+body {
+  background-color: #fffbe6;
+  font-family: Comic Sans MS, cursive;
+  text-align: center;
+  padding: 20px;
+}
+
+.rainbow-title {
+  font-size: 36px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: darkred;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.gr {
+  width: 200px;
+  border: 5px dotted tomato;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.intro {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #333;
+}
+
+.box {
+  background-color: #ffe0b3;
+  border: 2px dashed #ff9900;
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: left;
+}
